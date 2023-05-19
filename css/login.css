@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 6.25%;
+
+  --color:white;
+  --color-2: #EC1111;
+  --font-color: black;
+}
+
+body, label, input, button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16rem;
+  color: var(--color);
+
+  background-color: #191A1D;
+}
+
+main{
+  display: flex;
+  align-items: center;
+
+  width: 1200rem;
+  height: 700rem;
+
+  margin:100rem auto 0;
+
+}
+
+.logo{
+  width: 600rem;
+  height: 100%;
+
+  background-color: var(--color-2);
+
+  padding: 261rem 95rem 261rem;
+
+  border-radius: 20rem 0 0 20rem;
+}
+
+.logo img{
+  width: 410rem;
+  height: auto;
+}
+
+.login{
+  width: 600rem;
+  height: 100%;
+
+  background-color: var(--color);
+
+  padding: 142rem 50rem;
+
+  border-radius: 0 20rem 20rem 0;
+}
+
+.login form{
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+
+.input-wrapper label{
+  font-size: 32rem;
+  color: var(--font-color);
+
+  background-color: white;
+}
+
+.input-wrapper input{
+  width: 100%;
+  height: 56rem;
+
+  border: 1px solid #878787;
+  border-radius: 50rem;
+
+  background-color: #FAFAFA;
+
+  padding: 0 24rem;
+
+  font-size: 24rem;
+  color: var(--font-color);
+}
+
+.login button{
+  width: 268rem;
+  height: 52rem;
+
+  background-color: var(--color-2);
+
+  margin: 57rem 116rem 15rem;
+
+  border: none;
+  border-radius: 40rem;
+
+  font-size: 30rem;
+}
+
+.login button:hover{
+  background-color: #a50a0a;
+  cursor: pointer;
+}
+
+.login p{
+  color: black;
+
+  text-align: center;
+}
+
+.login p a{
+  font-weight: bold;
+  color: black;
+}

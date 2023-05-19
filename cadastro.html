@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Se cadastre</title>
+  <link rel="stylesheet" href="css/cadastro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="page">
+
+    <header>
+
+      <h1>
+        Preencha as informações para concluir o cadastro
+      </h1>
+
+      <a href="index.html"><img src="img/Logo.png" alt="Logo Vital Academia"></a>
+
+    </header>
+    
+    <form id="my-form" action="concluido.html">
+
+
+      <fieldset>
+
+        <div class="fieldset-wrapper">
+
+          <legend>Informações Pessoais</legend>
+
+          <div class="input-wrapper">
+            <label for="name">NOME COMPLETO</label>
+            <input type="text" id="name" placeholder="Informe seu nome completo">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="cpf">CPF <span>(somente números)</span></label>
+            <input type="number" id="cpf" placeholder="Exemplo: 12345678900">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="data">DATA DE NASCIMENTO</label>
+            <input type="date" id="data">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="telefone">NÚMERO DE TELEFONE <span>(somente números)</span></label>
+            <input type="number" id="telefone" placeholder="Exemplo: 82998765432">
+          </div>
+
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div class="fieldset-wrapper">
+
+          <legend>Informações de Cadastro</legend>
+  
+          <div class="input-wrapper">
+            <label for="email">E-mail <span>(digite um email válido)</span></label>
+            <input type="email" id="email" placeholder="Informe seu melhor e-mail">
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="password">Senha de acesso <span>(mínimo 8 caracteres)</span></label>
+            <input type="password" id="password" minlength="8" placeholder="********">
+          </div>
+  
+        </div> 
+
+      </fieldset>
+
+      <fieldset>
+
+        <div class="fieldset-wrapper">
+
+          <legend>Informações de Pagamento</legend>
+            
+          <div class="input-wrapper">
+            <label for="cartao">NÚMERO DO CARTÃO <span>(somente números)</span></label>
+            <input type="number" id="cartao" placeholder="Digite o número do seu cartão">
+          </div>
+  
+         <div class="col-2">
+            <div class="input-wrapper">
+              <label for="validade">DATA DE VALIDADE</label>
+              <input type="date" id="validade">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="codigo">CVC</label>
+              <input type="number" id="codigo" placeholder="Exemplo: 123">
+            </div>
+         </div>
+
+        </div> 
+
+      </fieldset>
+
+    </form>
+
+    <footer>
+      <input type="submit" value="CADASTRAR" form="my-form">
+    </footer>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 6.25%;
+
+  --color-primary: white;
+  --color-secundary: black;
+  --fz-primary: 30rem;
+  --fz-secondary: 40rem;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16rem;
+  color: var(--color-primary);
+
+  text-align: center;
+
+  background-color: #191A1D;
+}
+
+.retangule{
+  background-color: var(--color-primary);
+
+  max-width: 1020rem;
+  height: 560rem;
+
+  border-radius: 20rem;
+
+  margin: 200rem auto 0;
+
+  padding-top: 170rem;
+}
+
+.retangule h1{
+  font-size: 32rem;
+  font-weight: 700;
+  color: var(--color-secundary);
+  margin-bottom: 20rem;
+}
