@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Lista de Tarefas</h1>
+<h1 align="center">:file_cabinet: Vital Academia</h1>
 
 ## :memo: Descrição
 Projeto criado para a matéria de Programação Web Coding. Um site de uma academia.
